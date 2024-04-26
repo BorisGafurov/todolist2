@@ -20,7 +20,7 @@ body {
     font-family: 'IBMPlexSans-ExtraLight', sans-serif;
     font-size: 15px;
     color: black;
-    
+    position: relative;
 }
 
 .filters {
@@ -32,12 +32,13 @@ body {
 
 .todo-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
+    margin-block-end: 15px;
 }
 
- #todo-list {
+#todo-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -87,8 +88,6 @@ span {
     transition: background 0.5s ease;
     color: white;
     flex-shrink: 0;
-    position: fixed;
-    right: 218px;
 }
 
 #add-todo:hover {
