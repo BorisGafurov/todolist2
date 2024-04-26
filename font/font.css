@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url(Anton-Regular.woff2) format('woff2'),
+         url(Anton-Regular.woff) format('woff');
+}
+  
+@font-face {
+    font-family: 'TekturTight-Regular';
+    src: url(TekturTight-Regular.woff) format('woff'),
+         url(TekturTight-Regular.woff2) format('woff2');
+}
+   
+@font-face {
+    font-family: 'IBMPlexSans-ExtraLight';
+    src: url(IBMPlexSans-ExtraLight.woff) format('woff'),
+         url(IBMPlexSans-ExtraLight.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Light';
+    src: url(IBMPlexSans-Light.woff) format('woff'),
+         url(IBMPlexSans-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Medium';
+    src: url(IBMPlexSans-Medium.woff) format('woff'),
+         url(IBMPlexSans-Medium.woff2) format('woff2');
+}
+  
+  
+  
